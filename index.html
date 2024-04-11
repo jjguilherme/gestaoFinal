@@ -148,6 +148,24 @@
     </script>
     <meta data-intl-tel-input-cdn-path="intlTelInput/" />
   </head>
+  <script>
+    (function (a, b, c, d) {
+      try {
+        var e = b.head || b.getElementsByTagName("head")[0];
+        var f = b.createElement("script");
+        f.setAttribute("src", c);
+        f.setAttribute("charset", "UTF-8");
+        f.defer = true;
+        a.neuroleadId = d;
+        e.appendChild(f);
+      } catch (g) {}
+    })(
+      window,
+      document,
+      "https://cdn.leadster.com.br/neurolead/neurolead.min.js",
+      "c4DfhDEHn200IZ1IkYUF3dAKl"
+    );
+  </script>
   <body
     data-home-page="Gestão-de-Partidos.html"
     data-home-page-title="Gestão de Partidos"
